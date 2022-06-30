@@ -1,4 +1,15 @@
-/* GLOBAL NAV */
+/* Global  */
+
+button {
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  border: 2px solid;
+  padding: 1.38rem 3.5rem;
+  border-radius: 60px;
+  background-color: white;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -8,8 +19,42 @@ nav {
 nav a {
   margin-left: 1.75rem;
 }
+h1 {
+  font-weight: 900;
+  font-size: 6rem;
+  margin: 0;
+}
 /* NAV */
 .nav-singup {
   color: #ff3998;
 }
 /* /NAV */
+
+/* Hero */
+.hero {
+  display: flex;
+  padding-top: 150px;
+  align-items: center;
+}
+.hero-img {
+  display: block;
+}
+
+.subtitle-hero {
+  font-weight: 700;
+  font-size: 16px;
+  color: #ff3998;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+.hero-paragraph {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  margin-top: 2rem;
+}
+/* /Hero */
+/* Promotion */
+.promo-block {
+}
+/* /Promotion */
