@@ -1,9 +1,15 @@
-/* GLOBAL */
+/* GLOBAL NAV */
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 70px;
 }
 nav a {
   margin-left: 1.75rem;
 }
+/* NAV */
+.nav-singup {
+  color: #ff3998;
+}
+/* /NAV */
