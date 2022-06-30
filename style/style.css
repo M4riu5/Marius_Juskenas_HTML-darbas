@@ -28,6 +28,13 @@ h1 {
   background-color: #eeeeee;
   width: 100%;
 }
+.border-line-top {
+  height: 2px;
+  background-color: #eeeeee;
+  width: 100%;
+  margin-bottom: 85px;
+  margin-top: 120px;
+}
 /* NAV */
 .nav-singup {
   color: #ff3998;
@@ -134,6 +141,10 @@ h1 {
 }
 .promotion {
   display: flex;
-  gap: 233px;
+  align-items: center;
+  gap: 202px;
+}
+.upsell-image {
+  border-bottom: 2px solid #eeeeee;
 }
 /* /Promotion */
