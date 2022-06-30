@@ -4,7 +4,7 @@
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
-  background-color: white;
+  background-color: black;
 }
 a {
   text-decoration: none;
@@ -26,4 +26,5 @@ p {
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 80px;
+  background-color: white;
 }
