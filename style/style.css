@@ -23,6 +23,11 @@ h1 {
   font-size: 6rem;
   margin: 0;
 }
+.border-line {
+  height: 2px;
+  background-color: #eeeeee;
+  width: 100%;
+}
 /* NAV */
 .nav-singup {
   color: #ff3998;
@@ -122,3 +127,13 @@ h1 {
   gap: 40px;
 }
 /* /Auction  */
+
+/* Promotion */
+.promotion-smaller {
+  font-size: 3.5rem;
+}
+.promotion {
+  display: flex;
+  gap: 233px;
+}
+/* /Promotion */
