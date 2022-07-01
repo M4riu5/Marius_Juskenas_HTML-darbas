@@ -255,6 +255,9 @@ footer h3 {
   h1 {
     font-size: 3rem;
   }
+  button {
+    margin-top: 31px;
+  }
   /* /Global */
   /* Meniu */
   .meniu {
@@ -277,8 +280,8 @@ footer h3 {
   .hero-image {
     background-image: url(/assets/graphic.svg);
     background-repeat: no-repeat;
-    background-position: 243px 0px;
-    background-size: 87%;
+    background-position: 217px 10px;
+    background-size: 94%;
   }
   .hero-paragraph {
     margin-right: 85px;
