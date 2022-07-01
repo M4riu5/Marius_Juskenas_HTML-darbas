@@ -59,9 +59,7 @@ footer h3 {
   margin-bottom: 85px;
   margin-top: 120px;
 }
-.mobile-hide {
-  display: none;
-}
+
 /* /Global */
 
 /* NAV */
@@ -274,6 +272,12 @@ footer h3 {
   button {
     margin-top: 31px;
   }
+  .mobile-hide {
+    display: none;
+  }
+  .border-line-top {
+    margin: 92px 0 64px;
+  }
   /* /Global */
 
   /* Meniu */
@@ -331,5 +335,16 @@ footer h3 {
     align-items: center;
     justify-content: center;
   }
+  .shorter-image {
+    width: 100px;
+    overflow: hidden;
+  }
   /* /Companys  */
+
+  /* Auction */
+  .Auction-header {
+    padding-top: 56px;
+    padding-bottom: 40px;
+  }
+  /* /Auction */
 }
