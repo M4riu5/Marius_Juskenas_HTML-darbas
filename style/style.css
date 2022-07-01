@@ -139,6 +139,12 @@ footer h3 {
 /* /Sponsors */
 
 /* Auction  */
+.container-auction {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 80px;
+  background-color: white;
+}
 .Auction-header {
   padding-top: 120px;
   padding-bottom: 56px;
@@ -327,6 +333,7 @@ footer h3 {
     margin-bottom: 16px;
   }
   /* /Promo */
+
   /* Companys  */
   .sponsors {
     padding-top: 64px;
@@ -347,5 +354,25 @@ footer h3 {
     padding-top: 56px;
     padding-bottom: 40px;
   }
-  /* /Auction */
+  .promotion {
+    background-image: url(/assets/upsell-footer-image.svg);
+    background-repeat: no-repeat;
+    background-position: 853px 1px;
+  }
+  .auction {
+    display: grid;
+    grid-template-columns: 290px 290px 290px 290px;
+    gap: 40px;
+    overflow: auto;
+  }
+  .container-auction {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 0 92px 32px;
+    background-color: white;
+  }
+  .container-auction {
+    border-bottom: 2px solid #999999;
+  }
 }
+/* /Auction */
