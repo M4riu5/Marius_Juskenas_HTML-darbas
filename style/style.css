@@ -322,4 +322,14 @@ footer h3 {
     margin-bottom: 16px;
   }
   /* /Promo */
+  /* Companys  */
+  .sponsors {
+    padding-top: 64px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 27.5px;
+    align-items: center;
+    justify-content: center;
+  }
+  /* /Companys  */
 }
