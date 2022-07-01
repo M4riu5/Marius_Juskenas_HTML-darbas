@@ -245,3 +245,13 @@ footer h3 {
   flex-wrap: wrap;
 }
 /* /Footer */
+
+/* RESPONSIVE */
+@media screen and (max-width: 428px) {
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 32px;
+    background-color: white;
+  }
+}
