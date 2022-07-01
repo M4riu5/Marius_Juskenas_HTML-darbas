@@ -145,9 +145,8 @@ footer h3 {
   color: #555555;
 }
 .auctioninfo {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 24px;
 }
 .article1 {
@@ -159,6 +158,46 @@ footer h3 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
   gap: 40px;
+}
+.info-left {
+  text-align: left;
+  margin: 24px 0 24px 24px;
+}
+.info-right {
+  text-align: right;
+  margin: 24px 24px 24px 0;
+}
+.series {
+  color: #ff8139;
+  margin-bottom: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.name-price {
+  color: #111111;
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.name-price-eth {
+  display: flex;
+  justify-content: space-between;
+  color: #111111;
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.s-number {
+  color: #777777;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+.top-bid {
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: 12px;
+  color: #777777;
 }
 /* /Auction  */
 
