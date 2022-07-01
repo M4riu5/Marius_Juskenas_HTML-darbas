@@ -68,10 +68,15 @@ footer h3 {
 .hero {
   display: flex;
   padding-top: 150px;
+  padding-bottom: 182px;
   align-items: center;
+  flex-wrap: wrap;
+}
+.hero-text {
+  flex-basis: 43%;
 }
 .hero-img {
-  display: block;
+  flex-basis: 57%;
 }
 
 .subtitle-hero {
@@ -93,7 +98,6 @@ footer h3 {
 .promo-box {
   position: relative;
   width: fit-content;
-  padding-top: 182px;
 }
 .promo-text {
   position: absolute;
@@ -153,7 +157,7 @@ footer h3 {
 }
 .auction {
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr 2fr;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
   gap: 40px;
 }
 /* /Auction  */
@@ -198,5 +202,6 @@ footer h3 {
 }
 .nav-foot {
   display: flex;
+  flex-wrap: wrap;
 }
 /* /Footer */
