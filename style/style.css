@@ -220,10 +220,11 @@ footer h3 {
   font-size: 3.5rem;
 }
 .promotion {
-  display: flex;
-  align-items: center;
-  gap: 285px;
   border-bottom: 2px solid #eeeeee;
+  padding-bottom: 120px;
+  background-image: url(/assets/upsell-footer-image.svg);
+  background-repeat: no-repeat;
+  background-position: 853px 1px;
 }
 /* /Promotion */
 
