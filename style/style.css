@@ -63,6 +63,9 @@ footer h3 {
   color: #ff3998;
   display: inline-block;
 }
+.meniu-mobile {
+  display: none;
+}
 /* /NAV */
 
 /* Hero */
@@ -249,9 +252,17 @@ footer h3 {
 /* RESPONSIVE */
 @media screen and (max-width: 428px) {
   .container {
-    max-width: 1440px;
-    margin: 0 auto;
     padding: 0 32px;
-    background-color: white;
+  }
+  .meniu {
+    display: none;
+  }
+  .meniu-mobile {
+    display: block;
+    font-size: 22px;
+    color: #999999;
+  }
+  nav {
+    padding-top: 32px;
   }
 }
