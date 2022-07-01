@@ -144,6 +144,7 @@ footer h3 {
   margin: 0 auto;
   padding: 0 80px;
   background-color: white;
+  padding-bottom: 120px;
 }
 .Auction-header {
   padding-top: 120px;
@@ -227,10 +228,12 @@ footer h3 {
 }
 .promotion {
   border-bottom: 2px solid #eeeeee;
+  border-top: 2px solid #eeeeee;
+  padding-top: 120px;
   padding-bottom: 120px;
   background-image: url(/assets/upsell-footer-image.svg);
   background-repeat: no-repeat;
-  background-position: 853px 1px;
+  background-position: 853px 107px;
 }
 /* /Promotion */
 
@@ -370,9 +373,6 @@ footer h3 {
     margin: 0 auto;
     padding: 0 0 92px 32px;
     background-color: white;
-  }
-  .container-auction {
-    border-bottom: 2px solid #999999;
   }
 }
 /* /Auction */
