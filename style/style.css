@@ -15,6 +15,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding-top: 70px;
+  flex-wrap: wrap;
 }
 nav a {
   margin-left: 1.75rem;
