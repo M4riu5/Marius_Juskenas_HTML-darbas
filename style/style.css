@@ -88,7 +88,7 @@ footer a:hover {
 .hero-image {
   background-image: url(/assets/graphic.svg);
   background-repeat: no-repeat;
-  background-position: 576px 45px;
+  background-position: 576px 56px;
 }
 .subtitle-hero {
   font-weight: 700;
@@ -357,7 +357,7 @@ footer a:hover {
   .promo-box {
     background: url(/assets/background.svg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 15%;
   }
   .promo-text {
     margin: 0;
@@ -365,6 +365,9 @@ footer a:hover {
   }
   .promo-text h2 {
     margin-bottom: 16px;
+  }
+  .promo-text p {
+    line-height: 30px;
   }
   /* /Promo */
 
@@ -378,9 +381,12 @@ footer a:hover {
     justify-content: center;
   }
   .shorter-image {
-    width: 100px;
-    overflow: hidden;
+    width: 155px;
+    height: 47px;
+    object-fit: cover;
+    object-position: 1% 0;
   }
+
   /* /Companys  */
 
   /* Auction */
@@ -409,7 +415,7 @@ footer a:hover {
   .promotion {
     background-image: url(/assets/upsell-footer-image.svg);
     background-repeat: no-repeat;
-    background-position: 221.5px 187px;
+    background-position: 221.5px 190px;
     padding-top: 64px;
     padding-bottom: 66px;
   }
@@ -423,6 +429,7 @@ footer a:hover {
     flex-direction: column;
     align-items: flex-start;
     gap: 64px;
+    padding-top: 64px;
   }
   .footer-nav ul {
     margin: 0 0 28px 0;
