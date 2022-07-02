@@ -238,6 +238,15 @@ footer h3 {
   background-repeat: no-repeat;
   background-position: 853px 107px;
 }
+.paragraph-mobile {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  margin-top: 24px;
+  margin-bottom: 0;
+  color: #555555;
+  display: none;
+}
 /* /Promotion */
 
 /* Footer */
@@ -318,9 +327,11 @@ footer h3 {
     background-size: 94%;
   }
   .hero-paragraph {
-    margin-right: 77px;
-    margin-bottom: 0;
-    margin-top: 24px;
+    display: none;
+  }
+  .paragraph-mobile {
+    margin-right: 189px;
+    display: block;
   }
   /* /Hero  */
 
@@ -375,21 +386,23 @@ footer h3 {
     background-color: white;
   }
   /* /Auction */
+
+  /* Promotion */
   .promotion h1 {
     margin-right: 122px;
   }
   .promotion {
     background-image: url(/assets/upsell-footer-image.svg);
     background-repeat: no-repeat;
-    background-position: 220px 218px;
+    background-position: 221.5px 187px;
     padding-top: 64px;
     padding-bottom: 66px;
   }
   .promotion-container {
     padding: 0 0 0 32px;
   }
+  /* /Promotion */
 
-  /* Promotion */
   /* FOOTer */
   .footer-nav {
     flex-direction: column;
