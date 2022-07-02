@@ -302,6 +302,9 @@ footer a:hover {
   button {
     margin-top: 31px;
   }
+  nav {
+    padding-top: 32px;
+  }
   .mobile-hide {
     display: none;
   }
@@ -319,9 +322,7 @@ footer a:hover {
     font-size: 22px;
     color: #999999;
   }
-  nav {
-    padding-top: 32px;
-  }
+
   .border-line {
     display: none;
   }
