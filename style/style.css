@@ -318,7 +318,9 @@ footer h3 {
     background-size: 94%;
   }
   .hero-paragraph {
-    margin-right: 85px;
+    margin-right: 77px;
+    margin-bottom: 0;
+    margin-top: 24px;
   }
   /* /Hero  */
 
@@ -373,9 +375,6 @@ footer h3 {
     background-color: white;
   }
   /* /Auction */
-  .border-line {
-    max-width: ;
-  }
   .promotion h1 {
     margin-right: 122px;
   }
@@ -389,10 +388,28 @@ footer h3 {
   .promotion-container {
     padding: 0 0 0 32px;
   }
-  .hero-paragraph {
-    margin-right: 189px;
-    margin-bottom: 0;
-    margin-top: 24px;
-  }
+
   /* Promotion */
+  /* FOOTer */
+  .footer-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+  }
+  .footer-nav ul {
+    margin: 0 0 28px 0;
+    padding: 0;
+  }
+  .nav-title {
+    margin-bottom: 28px;
+    font-size: 16px;
+    padding-right: 101px;
+  }
+  .copyright {
+    padding: 64px 0 105px 0;
+  }
+  .nav-title-mobile {
+    padding-right: 75px;
+  }
+  /* /FOOTer */
 }
